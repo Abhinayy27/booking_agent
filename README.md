@@ -107,7 +107,7 @@ The system relies on **two core prompts** to drive intelligence, designed with s
 ---
 
 ##  Business Strategy Summary
-*For full details, see [STRATEGY.md](STRATEGY.md)*
+*For full details, see [STRATEGY.md](https://github.com/Abhinayy27/booking_agent/blob/main/goodfoods/STRATEGY.md)*
 
 **Vision:** GoodFoods is not building a chatbot; we are building an **"Agent-Ready" Infrastructure**. By exposing our inventory via standard Agent-to-Agent protocols, we position ourselves to be the default dining partner for future AI assistants (Siri, Gemini, etc.).
 
