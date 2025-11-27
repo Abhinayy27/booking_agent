@@ -1,0 +1,30 @@
+[
+  {
+    "id": "client_agent",
+    "name": "Concierge",
+    "description": "Main interface for the user. Handles intent detection and orchestration.",
+    "capabilities": ["orchestrate", "chat"],
+    "input_schema": {}
+  },
+  {
+    "id": "search_agent",
+    "name": "Restaurant Finder",
+    "description": "Finds restaurants based on criteria like cuisine, price, location, and ambiance.",
+    "capabilities": ["find_restaurants", "check_ambiance", "get_restaurant_details"],
+    "input_schema": {
+      "query": "string",
+      "filters": "dict"
+    }
+  },
+  {
+    "id": "booking_agent",
+    "name": "Booking Manager",
+    "description": "Handles reservation creation, modification, and cancellation.",
+    "capabilities": ["create_booking", "modify_booking", "cancel_booking", "check_availability"],
+    "input_schema": {
+      "restaurant_id": "int",
+      "party_size": "int",
+      "time": "datetime"
+    }
+  }
+]
