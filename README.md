@@ -2,7 +2,7 @@
 
 > **A Federated Agent Network for the Hospitality Industry**
 
-GoodFoods is not just a chatbot—it's a demonstration of an **Agent-to-Agent (A2A)** ecosystem. Built from scratch without frameworks like LangChain, it uses a central "Concierge" agent to orchestrate specialized agents (Search, Booking) via a custom JSON-RPC protocol. This architecture enables interoperability, scalable vertical expansion, and "smart" features like automatic conflict resolution.
+GoodFoods is not just a chatbot, it's a demonstration of an **Agent-to-Agent (A2A)** ecosystem. Built from scratch without frameworks like LangChain, it uses a central "Concierge" agent to orchestrate specialized agents (Search, Booking) via a custom JSON-RPC protocol. This architecture enables interoperability, scalable vertical expansion, and "smart" features like automatic conflict resolution.
 
 ---
 
